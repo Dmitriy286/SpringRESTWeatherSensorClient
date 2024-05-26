@@ -44,6 +44,23 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.26</version>
 		</dependency>
+
+<!--		<repository>-->
+<!--			<id>sonatype-oss-snapshot</id>-->
+<!--			<snapshots/>-->
+<!--			<url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--		</repository>-->
+
+<!--		Snapshots can be manually downloaded from Sonatype:-->
+<!--		https://oss.sonatype.org/content/groups/public/org/knowm/xchart/xchart/-->
+
+		<!-- https://mvnrepository.com/artifact/org.knowm.xchart/xchart -->
+		<dependency>
+			<groupId>org.knowm.xchart</groupId>
+			<artifactId>xchart</artifactId>
+			<version>3.8.5</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
